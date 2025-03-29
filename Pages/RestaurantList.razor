@@ -1,0 +1,136 @@
+﻿@using BlazorMapaColombia.Data
+@inject RestaurantService RestaurantService
+
+<div class="restaurant-list-section container-fluid px-4">
+    @if (restaurants == null)
+    {
+        <div class="d-flex justify-content-center align-items-center loading-container">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
+            <span class="ms-2">Cargando restaurantes...</span>
+        </div>
+    }
+    else if (!restaurants.Any())
+    {
+        <div class="alert alert-info text-center" role="alert">
+            <i class="fas fa-info-circle me-2"></i>
+            No hay restaurantes disponibles para esta ciudad.
+        </div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var restaurant in restaurants)
+            {
+                <div class="col">
+                    <div class="card restaurant-card shadow-sm">
+                        <div class="restaurant-image-container">
+                            @if (!string.IsNullOrEmpty(restaurant.ImageUrl))
+                            {
+                                <img src="@restaurant.ImageUrl"
+                                     class="card-img-top restaurant-image"
+                                     alt="@restaurant.Name"
+                                     onerror="this.style.display='none'">
+                            }
+                            <div class="rating-badge">
+                                <span class="badge bg-warning text-dark">
+                                    <i class="fas fa-star me-1"></i>@restaurant.Rating/5
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <h5 class="card-title mb-1">@restaurant.Name</h5>
+                                    <h6 class="card-subtitle text-muted">@restaurant.Type</h6>
+                                </div>
+                            </div>
+                            <p class="card-text text-muted small">@restaurant.Description</p>
+                            <div class="restaurant-details">
+                                <p class="mb-1">
+                                    <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                                    <small>@restaurant.Address</small>
+                                </p>
+                                @if (!string.IsNullOrEmpty(restaurant.SocialMediaLink))
+                                {
+                                    <a href="@restaurant.SocialMediaLink"
+                                       target="_blank"
+                                       class="btn btn-sm btn-outline-primary mt-2">
+                                        <i class="fab fa-instagram me-1"></i>Síguenos
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public int CityId { get; set; }
+
+    [Parameter]
+    public bool ShowInSeparateSection { get; set; } = true;
+
+    private List<Restaurant> restaurants;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        restaurants = await RestaurantService.GetRestaurantsByCityAsync(CityId);
+    }
+}
+
+<style>
+    .restaurant-list-section {
+        background-color: #f8f9fa;
+        padding-top: 20px;
+    }
+
+    .loading-container {
+        min-height: 300px;
+        color: #6c757d;
+    }
+
+    .restaurant-card {
+        transition: all 0.3s ease;
+        border: none;
+        overflow: hidden;
+    }
+
+        .restaurant-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
+        }
+
+    .restaurant-image-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .restaurant-image {
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .restaurant-card:hover .restaurant-image {
+        transform: scale(1.05);
+    }
+
+    .rating-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+    }
+
+    .restaurant-details {
+        border-top: 1px solid #e9ecef;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+</style>

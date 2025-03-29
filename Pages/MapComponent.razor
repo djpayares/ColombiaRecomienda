@@ -1,0 +1,63 @@
+﻿@page "/map"
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@using BlazorMapaColombia.Data
+@implements IDisposable
+
+<h1>Mapa Interactivo de Colombia</h1>
+
+<div class="map-container">
+    <div id="mapid" style="height: 600px; width: 100%;"></div>
+
+    @if (selectedCity != null)
+    {
+        <CityDetails City="@selectedCity" />
+    }
+</div>
+
+@code {
+    private City selectedCity;
+    private List<City> cities;
+    private DotNetObjectReference<MapComponent> objRef;
+
+    protected override void OnInitialized()
+    {
+        // Inicializar ciudades con coordenadas para Leaflet (latitud, longitud)
+        cities = new List<City>
+        {
+            new City { Id = 1, Name = "Bogotá", Description = "Capital de Colombia", ImagePath = "/images/cities/bogota.jpg", Latitude = 4.6097, Longitude = -74.0817 },
+            new City { Id = 2, Name = "Medellín", Description = "Ciudad de la eterna primavera", ImagePath = "/images/cities/medellin.jpg", Latitude = 6.2476, Longitude = -75.5658 },
+            new City { Id = 3, Name = "Cali", Description = "Capital de la salsa", ImagePath = "/images/cities/cali.jpg", Latitude = 3.4516, Longitude = -76.5320 },
+            new City { Id = 4, Name = "Cartagena", Description = "Ciudad amurallada", ImagePath = "/images/cities/cartagena.jpg", Latitude = 10.3932, Longitude = -75.4832 },
+            new City { Id = 5, Name = "Valledupar", Description = "Capital del Cesar", ImagePath = "/images/cities/valledupar.jpg", Latitude = 10.4643, Longitude = -73.2532 }
+        };
+
+        objRef = DotNetObjectReference.Create(this);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitializeMapAsync();
+        }
+    }
+
+    private async Task InitializeMapAsync()
+    {
+        // Inicializar el mapa y añadir marcadores para las ciudades
+        await JSRuntime.InvokeVoidAsync("initializeMap", objRef, cities);
+    }
+
+    [JSInvokable]
+    public void SelectCityFromJS(int cityId)
+    {
+        selectedCity = cities.FirstOrDefault(c => c.Id == cityId);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        objRef?.Dispose();
+    }
+}

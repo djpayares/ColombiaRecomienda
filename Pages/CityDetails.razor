@@ -1,0 +1,84 @@
+﻿@using BlazorMapaColombia.Data
+@using Microsoft.AspNetCore.Components
+@inject RestaurantService RestaurantService
+
+<div class="row g-4">
+    <div class="col-md-4">
+        <div class="city-details">
+            <h2>@City.Name</h2>
+            <p>@City.Description</p>
+            <div class="city-image">
+                <img src="@City.ImagePath" alt="@City.Name" />
+            </div>
+            <div class="city-stats">
+                <div class="stat-item">
+                    <i class="fas fa-utensils me-2"></i>
+                    <span>Restaurantes</span>
+                    <strong class="ms-2">@(restaurants?.Count ?? 0)</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h3 class="mb-4">Restaurantes Populares</h3>
+        @if (City != null)
+        {
+            <RestaurantList CityId="@City.Id" />
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public City City { get; set; }
+
+    private List<Restaurant> restaurants = new List<Restaurant>();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (City != null)
+        {
+            restaurants = await RestaurantService.GetRestaurantsByCityAsync(City.Id);
+            StateHasChanged();
+        }
+    }
+}
+
+<style>
+    .city-details {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .city-image {
+        margin: 15px 0;
+    }
+
+        .city-image img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+    .city-stats {
+        background-color: #f1f3f5;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    .stat-item {
+        display: flex;
+        align-items: center;
+        color: #495057;
+    }
+
+        .stat-item i {
+            color: #228be6;
+            margin-right: 10px;
+        }
+</style>

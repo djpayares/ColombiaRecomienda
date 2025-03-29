@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorMapaColombia
+build_property.RootNamespace = BlazorMapaColombia
+build_property.ProjectDir = C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/CityDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l0eURldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/MapComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/RestaurantList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-v118s0ppuv
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tjhel3jnky
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/BlazorMapaColombia/BlazorMapaColombia/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

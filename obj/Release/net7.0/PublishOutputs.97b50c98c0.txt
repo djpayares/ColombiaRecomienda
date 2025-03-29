@@ -1,0 +1,7 @@
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\BlazorMapaColombia.exe
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\BlazorMapaColombia.dll
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\BlazorMapaColombia.deps.json
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\BlazorMapaColombia.runtimeconfig.json
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Release\net7.0\PubTmp\Out\BlazorMapaColombia.pdb

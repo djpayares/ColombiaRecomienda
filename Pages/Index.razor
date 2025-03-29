@@ -1,0 +1,444 @@
+﻿@page "/"
+<div class="container-fluid px-0">
+    <!-- Hero Section con Gradiente -->
+    <section class="colombia-hero-section position-relative overflow-hidden">
+        <div class="colombia-hero-overlay"></div>
+        <div class="container position-relative z-2">
+            <div class="row align-items-center vh-100">
+                <div class="col-md-6">
+                    <div class="colombia-hero-content text-white">
+                        <div class="logo-title-container d-flex align-items-center mb-4">
+                            <div class="logo-wrapper me-4">
+                                <img src="images/map/logo.jpeg"
+                                     class="colombia-hero-logo rounded-circle"
+                                     alt="ColombiaRecomienda Logo">
+                            </div>
+                            <h1 class="display-5 fw-bold mb-0 animate__animated animate__fadeInLeft">
+                                Colombia Recomienda
+                            </h1>
+                        </div>
+                        <p class="lead mb-5 animate__animated animate__fadeInLeft animate__delay-1s">
+                            Un viaje culinario y cultural a través de las ciudades más vibrantes de Colombia.
+                        </p>
+                        <a href="map" class="colombia-btn-explore btn-lg px-5 py-3 animate__animated animate__fadeInUp animate__delay-2s">
+                            🗺️ Explorar Mapa
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="colombia-hero-image-container">
+                        <img src="images/map/logo.jpeg"
+                             class="img-fluid colombia-hero-image rounded-4 shadow-lg"
+                             alt="Mapa de Colombia">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="colombia-services-section py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Misión Card -->
+                <div class="col-md-4">
+                    <div class="colombia-service-card card border-0 h-100 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                        <div class="card-body text-center p-4 d-flex flex-column">
+                            <div class="colombia-service-icon mb-3 text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title mb-3 text-xl font-semibold">Misión</h3>
+                            <p class="card-text text-muted mb-4 flex-grow-1">
+                                Nuestro objetivo principal es:<br>
+
+                                • Descubrir los mejores restaurantes en Colombia<br>
+
+                                • Conectar usuarios con experiencias gastronómicas únicas<br>
+
+
+                                Compromisos clave:<br>
+
+                                • Proporcionar información detallada y actualizada<br>
+
+                                • Ofrecer recomendaciones personalizadas<br>
+
+                                • Compartir reseñas confiables<br>
+
+
+                                Beneficios para el usuario:<br>
+
+                                • Exploración sencilla de la diversidad culinaria<br>
+
+                                • Acceso fácil a información gastronómica<br>
+
+                                • Descubrimiento de nuevas experiencias culinarias<br>
+                            </p>
+                            <a href="#lugares" class="btn btn-outline-primary mt-auto align-self-center" aria-label="Descubrir lugares">
+                                Descubrir
+                                <span class="sr-only">lugares emblemáticos</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fortalezas Card -->
+                <div class="col-md-4">
+                    <div class="colombia-service-card card border-0 h-100 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                        <div class="card-body text-center p-4 d-flex flex-column">
+                            <div class="colombia-service-icon mb-3 text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title mb-3 text-xl font-semibold">Fortalezas</h3>
+                            <p class="card-text text-muted mb-4 flex-grow-1">
+                                Red de contactos profesional:<br>
+
+                                • Conexiones sólidas con restaurantes<br>
+
+                                • Acceso a expertos gastronómicos<br>
+
+                                • Garantía de información actualizada y de calidad<br>
+
+
+                                Plataforma digital superior:<br>
+
+                                • Diseño intuitivo y fácil de usar<br>
+
+                                • Interfaz moderna y accesible<br>
+
+                                • Optimizada para la experiencia del usuario<br>
+
+
+                                Enfoque gastronómico distintivo:<br>
+
+                                • Celebración de la autenticidad culinaria<br>
+
+                                • Destacamos lugares tradicionales<br>
+
+                                • Exploramos nuevas tendencias gastronómicas<br>
+                            </p>
+                            <a href="#lugares" class="btn btn-outline-primary mt-auto align-self-center" aria-label="Descubrir lugares">
+                                Descubrir
+                                <span class="sr-only">fortalezas gastronómicas</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oportunidades Card -->
+                <div class="col-md-4">
+                    <div class="colombia-service-card card border-0 h-100 shadow-sm hover:shadow-lg transition-shadow duration-300">
+                        <div class="card-body text-center p-4 d-flex flex-column">
+                            <div class="colombia-service-icon mb-3 text-success">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <h3 class="card-title mb-3 text-xl font-semibold">Oportunidades</h3>
+                            <p class="card-text text-muted mb-4 flex-grow-1">
+                                Tendencias del mercado:<br>
+
+                                • Crecimiento del turismo gastronómico<br>
+
+                                • Digitalización del sector restaurantero<br>
+
+                                • Aumento de la demanda de experiencias culinarias únicas<br>
+
+
+                                Innovación tecnológica:<br>
+
+                                • Implementación de geolocalización avanzada<br>
+
+                                • Recomendaciones personalizadas con IA<br>
+
+                                • Análisis de datos gastronómicos<br>
+
+
+                                Estrategias de expansión:<br>
+
+                                • Alianzas estratégicas con restaurantes<br>
+
+                                • Colaboración en eventos gastronómicos<br>
+
+                                • Ampliación de la comunidad de usuarios<br>
+                            </p>
+                            <a href="#gastronomia" class="btn btn-outline-success mt-auto align-self-center" aria-label="Explorar oportunidades">
+                                Explorar
+                                <span class="sr-only">oportunidades gastronómicas</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinos Destacados -->
+    <section class="colombia-destinations py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-6">Destinos Imperdibles</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="colombia-destination-card card border-0">
+                        <img src="images/cities/cartagena.jpg" class="card-img-top" alt="Cartagena">
+                        <div class="card-body">
+                            <h5 class="card-title">Cartagena</h5>
+                            <p class="card-text text-muted">Patrimonio histórico y belleza colonial</p>
+                            <a href="#cartagena" class="btn btn-sm btn-outline-primary">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="colombia-destination-card card border-0">
+                        <img src="images/cities/medellin.jpg" class="card-img-top" alt="Medellín">
+                        <div class="card-body">
+                            <h5 class="card-title">Medellín</h5>
+                            <p class="card-text text-muted">Ciudad de la Eterna Primavera</p>
+                            <a href="#medellin" class="btn btn-sm btn-outline-primary">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="colombia-destination-card card border-0">
+                        <img src="images/cities/bogota.jpg" class="card-img-top" alt="Bogotá">
+                        <div class="card-body">
+                            <h5 class="card-title">Bogotá</h5>
+                            <p class="card-text text-muted">Capital cultural y moderna</p>
+                            <a href="#bogota" class="btn btn-sm btn-outline-primary">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="colombia-testimonials bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-6">Experiencias de Viajeros</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="colombia-testimonial-card card border-0 h-100">
+                        <div class="card-body text-center">
+                            <img src="images/person/perito.jpg" class="colombia-testimonial-avatar rounded-circle mb-3" width="100" height="100" alt="Viajero 1">
+                            <blockquote class="blockquote">
+                                <p class="mb-4">"Colombia Recomienda me ayudó a descubrir lugares increíbles que nunca imaginé."</p>
+                                <footer class="blockquote-footer">María Fernández</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="colombia-testimonial-card card border-0 h-100">
+                        <div class="card-body text-center">
+                            <img src="images/person/peddro.jpeg" class="colombia-testimonial-avatar rounded-circle mb-3" width="100" height="100" alt="Viajero 2">
+                            <blockquote class="blockquote">
+                                <p class="mb-4">"La guía gastronómica es simplemente espectacular. ¡Probé sabores únicos!"</p>
+                                <footer class="blockquote-footer">Carlos Rodríguez</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="colombia-testimonial-card card border-0 h-100">
+                        <div class="card-body text-center">
+                            <img src="images/person/pepita.jpeg" class="colombia-testimonial-avatar rounded-circle mb-3" width="100" height="100" alt="Viajero 3">
+                            <blockquote class="blockquote">
+                                <p class="mb-4">"Un recurso increíble para explorar la diversidad de Colombia."</p>
+                                <footer class="blockquote-footer">Ana Martínez</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamado a la Acción -->
+    <section class="colombia-cta py-5 text-white">
+        <div class="container text-center">
+            <h2 class="display-5 mb-4">Comienza tu Aventura Colombiana</h2>
+            <p class="lead mb-5">Descubre, experimenta y enamórate de Colombia con nuestra guía personalizada.</p>
+            <a href="register" class="btn btn-light btn-lg px-5 py-3">Únete Ahora</a>
+        </div>
+    </section>
+</div>
+
+<style>
+    .colombia-hero-section {
+        background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        color: white;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .colombia-hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        pointer-events: none;
+    }
+
+    .logo-title-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .colombia-hero-logo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 4px solid rgba(255,255,255,0.2);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        transition: all 0.5s ease;
+    }
+
+    .logo-title-container:hover .colombia-hero-logo {
+        transform: rotate(360deg) scale(1.1);
+        border-color: rgba(255,255,255,0.5);
+    }
+
+    .logo-title-container h1 {
+        font-size: 2.5rem;
+        background: linear-gradient(to right, #ffffff, #e0e0e0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        transition: all 0.5s ease;
+    }
+
+    .logo-title-container:hover h1 {
+        transform: translateX(10px);
+    }
+
+    .colombia-hero-content p {
+        max-width: 600px;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+    }
+
+    .colombia-hero-image-container {
+        position: relative;
+        perspective: 1000px;
+        transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .colombia-hero-image {
+        transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transform: rotateY(-10deg) scale(0.9);
+        opacity: 0.8;
+        box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+    }
+
+    .colombia-hero-image-container:hover .colombia-hero-image {
+        transform: rotateY(0) scale(1.05);
+        opacity: 1;
+        box-shadow: 0 35px 60px rgba(0,0,0,0.4);
+    }
+
+    .colombia-btn-explore {
+        position: relative;
+        background-color: #fff;
+        color: #3494E6;
+        border: none;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+        .colombia-btn-explore::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: all 0.6s;
+            z-index: -1;
+        }
+
+        .colombia-btn-explore:hover::before {
+            left: 100%;
+        }
+
+        .colombia-btn-explore:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+        }
+
+
+    /* Services Section */
+    .colombia-service-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .colombia-service-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+    .colombia-service-icon {
+        opacity: 0.8;
+        transition: all 0.3s ease;
+    }
+
+    .colombia-service-card:hover .colombia-service-icon {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    /* Destinations Section */
+    .colombia-destination-card {
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+        .colombia-destination-card img {
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .colombia-destination-card:hover img {
+            transform: scale(1.1);
+        }
+
+    /* Testimonials Section */
+    .colombia-testimonial-card {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .colombia-testimonial-card:hover {
+            transform: translateY(-10px);
+        }
+
+    .colombia-testimonial-avatar {
+        border: 4px solid #3494E6;
+    }
+
+    /* CTA Section */
+    .colombia-cta {
+        background: linear-gradient(135deg, #3494E6, #EC6EAD);
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+</style>
+
+<!-- Mantener script de animación -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
