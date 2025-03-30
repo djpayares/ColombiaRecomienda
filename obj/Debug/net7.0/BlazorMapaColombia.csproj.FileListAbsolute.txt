@@ -33,3 +33,4 @@ C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Debug\net7
 C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Debug\net7.0\BlazorMapaColombia.genruntimeconfig.cache
 C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Debug\net7.0\ref\BlazorMapaColombia.dll
 C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\david\source\repos\BlazorMapaColombia\BlazorMapaColombia\obj\Debug\net7.0\BlazorMapaColombia.sourcelink.json
