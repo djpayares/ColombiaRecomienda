@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CQM6+dTY4pEinhqOIXb54Dz+Vt054PeRP5rfSKMsnz8=",
+  "Hash": "ldAms8f61g26bxwYpO6E18ZWkuVD0yO/5CRPcXmdFgk=",
   "Source": "BlazorMapaColombia",
   "BasePath": "_content/BlazorMapaColombia",
   "Mode": "Default",
@@ -472,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "12wcbt5af6",
-      "Integrity": "t4NH+bdkDS3Pc8AVuZWOwHNYQXP+H3KbXgBJH8Tc2rk=",
+      "Fingerprint": "r9evmi42yb",
+      "Integrity": "/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\map\\logo.jpeg"
@@ -2308,51 +2308,6 @@
       ]
     },
     {
-      "Route": "images/map/logo.12wcbt5af6.jpeg",
-      "AssetFile": "C:\\Users\\david\\source\\repos\\BlazorMapaColombia\\BlazorMapaColombia\\wwwroot\\images\\map\\logo.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85258"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"t4NH+bdkDS3Pc8AVuZWOwHNYQXP+H3KbXgBJH8Tc2rk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 20:19:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "12wcbt5af6"
-        },
-        {
-          "Name": "label",
-          "Value": "images/map/logo.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-t4NH+bdkDS3Pc8AVuZWOwHNYQXP+H3KbXgBJH8Tc2rk="
-        }
-      ]
-    },
-    {
       "Route": "images/map/logo.jpeg",
       "AssetFile": "C:\\Users\\david\\source\\repos\\BlazorMapaColombia\\BlazorMapaColombia\\wwwroot\\images\\map\\logo.jpeg",
       "Selectors": [],
@@ -2363,7 +2318,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "85258"
+          "Value": "29377"
         },
         {
           "Name": "Content-Type",
@@ -2371,11 +2326,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t4NH+bdkDS3Pc8AVuZWOwHNYQXP+H3KbXgBJH8Tc2rk=\""
+          "Value": "\"/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 20:19:48 GMT"
+          "Value": "Wed, 02 Apr 2025 01:03:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2385,7 +2340,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t4NH+bdkDS3Pc8AVuZWOwHNYQXP+H3KbXgBJH8Tc2rk="
+          "Value": "sha256-/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo="
+        }
+      ]
+    },
+    {
+      "Route": "images/map/logo.r9evmi42yb.jpeg",
+      "AssetFile": "C:\\Users\\david\\source\\repos\\BlazorMapaColombia\\BlazorMapaColombia\\wwwroot\\images\\map\\logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 01:03:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r9evmi42yb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/map/logo.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo="
         }
       ]
     },

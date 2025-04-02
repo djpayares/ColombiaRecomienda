@@ -240,17 +240,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2Rr3YfVlfbzcNvEFCSMdOYGzlNuo7QpYPlZud5QfCZs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"116383"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00222Rr3YfVlfbzcNvEFCSMdOYGzlNuo7QpYPlZud5QfCZs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 02:17:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BlazorMapaColombia/images/map/logo.12wcbt5af6.jpeg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\map\logo.jpeg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"12wcbt5af6"},{"Name":"integrity","Value":"sha256-t4NH\u002BbdkDS3Pc8AVuZWOwHNYQXP\u002BH3KbXgBJH8Tc2rk="},{"Name":"label","Value":"_content/BlazorMapaColombia/images/map/logo.jpeg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"85258"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022t4NH\u002BbdkDS3Pc8AVuZWOwHNYQXP\u002BH3KbXgBJH8Tc2rk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 20:19:48 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BlazorMapaColombia/images/map/logo.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\map\logo.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t4NH\u002BbdkDS3Pc8AVuZWOwHNYQXP\u002BH3KbXgBJH8Tc2rk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"85258"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022t4NH\u002BbdkDS3Pc8AVuZWOwHNYQXP\u002BH3KbXgBJH8Tc2rk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 20:19:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29377"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 01:03:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BlazorMapaColombia/images/map/logo.r9evmi42yb.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\map\logo.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r9evmi42yb"},{"Name":"integrity","Value":"sha256-/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo="},{"Name":"label","Value":"_content/BlazorMapaColombia/images/map/logo.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29377"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/3dQP5EP0rZ0eJUJThwQixtVEVL5WHjhAowwlnLvCwo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 01:03:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BlazorMapaColombia/images/person/peddro.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\person\peddro.jpeg'))</AssetFile>

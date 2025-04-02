@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorMapaColombia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8630b852a3386c4d76fb056b5569f1edecfb1860")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bcc534f0a1192d3ea91aafdb8637e9e77e9f270")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorMapaColombia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorMapaColombia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
